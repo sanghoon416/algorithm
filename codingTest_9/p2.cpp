@@ -70,7 +70,7 @@ void reset(){
 }
 
 void solve(){
-	for(int i=2;i<=10;i++){
+	for(int i=1;i<=10;i++){
 		reset();
 		int res = bfs(1,i);
 		if(ans < res){
