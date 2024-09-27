@@ -25,4 +25,5 @@ int main(){
 
     cout << ansT << "\n";
     cout << n / chunkP << " " << n % chunkP;
+    
 }
